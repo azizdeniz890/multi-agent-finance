@@ -72,11 +72,11 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🙌 Acknowledgements
+## 📚 Acknowledgements
 
-- Thanks to [IO.NET](https://io.net/) for providing free LLM compute.
-- Inspired by Warren Buffett, Benjamin Graham, Peter Lynch investing philosophies.
-
+- This project was inspired by [Virattt's AI Hedge Fund](https://github.com/virattt/ai-hedge-fund).
+- Special thanks to [IO.NET](https://io.net/) for providing GPU compute resources.
+- Based on the timeless investing wisdom of Warren Buffett, Benjamin Graham, and Peter Lynch.
 ---
 
 ## 💬 Example Output
