@@ -34,8 +34,8 @@ This project leverages multiple AI agents to simulate different legendary invest
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/azizdeniz890/multi-agent-finance.git
+cd multi-agent-finance
 ```
 
 2. Install the required dependencies:
@@ -98,8 +98,8 @@ It **does not constitute financial advice**. Always perform your own due diligen
 
 If you like this project or have any feedback, feel free to reach out!
 
-- GitHub: [your-github-username](https://github.com/your-github-username)
-- Email: your-email@example.com
+- GitHub: [azizdeniz890](https://github.com/azizdeniz890)
+- Email: azizdeniz098@gmail.com
 
 ---
 
