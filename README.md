@@ -54,18 +54,6 @@ or
 
 ---
 
-## 🖼️ Example Screenshots
-
-> App Interface:
-
-![App Screenshot 1](images/app_example1.png)
-
-> Multi-Agent Analyses:
-
-![App Screenshot 2](images/app_example2.png)
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
