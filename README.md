@@ -1,44 +1,33 @@
 # 📈 Multi-Agent Finance Dashboard
 
-A powerful AI-driven dashboard that analyzes stock financials and news through the eyes of **Warren Buffett**, **Benjamin Graham**, and **Peter Lynch**.
+A powerful AI-driven dashboard that analyzes stock financials and news using legendary investment strategies.
 
-This project leverages multiple AI agents to simulate different legendary investors' perspectives.
+- 🧠 Powered by [IO.NET](https://io.net/) API for running large LLMs like **meta-llama-3-70B**.
+- 🤖 Multiple agents: **Warren Buffett**, **Benjamin Graham**, **Peter Lynch**.
+- 📊 Combines real-time financial data, technical indicators, and top news sentiment.
 
 ---
 
 ## 🚀 Features
 
-- 📊 Real-time **financial metrics** (Price, Valuation, Profitability, Debt, Growth indicators, etc.)
-- 📰 Latest **trusted news** aggregation and analysis.
-- 🤖 **Buffett, Graham, and Lynch-style** investment analysis.
-- 📈 Technical indicators: **RSI, MACD, SMA50, SMA200, Volatility, Avg Volume**.
-- 🎯 Clear verdicts (Bullish / Bearish / Neutral) from each agent.
-- 🖥️ User-friendly **Streamlit web app** interface.
-- ⚡ Lightweight and fast to run locally.
+- Fetch real-time stock financials (P/E, PEG, ROE, D/E, RSI, MACD, SMA, Volatility).
+- Analyze top news headlines from trusted sources (Forbes, Bloomberg, CNBC, etc.).
+- Three AI agents provide distinct investment analyses based on their philosophies.
+- Sentiment detection: Bullish / Bearish / Neutral.
+- Fully interactive dashboard powered by Streamlit.
 
 ---
 
-## 📂 Project Structure
+## ⚡ How to Run Locally
 
-```bash
-├── app.py          # Streamlit application
-├── y4.py           # Core logic: data fetching, AI agent analysis
-├── requirements.txt # Python dependencies
-├── README.md       # Project documentation (this file)
-```
-
----
-
-## 🛠️ Installation & Usage
-
-1. Clone the repository:
+1. Clone the repo:
 
 ```bash
 git clone https://github.com/azizdeniz890/multi-agent-finance.git
 cd multi-agent-finance
 ```
 
-2. Install the required dependencies:
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -50,30 +39,43 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-4. Open your browser and start analyzing stocks with AI! 🎯
+---
+
+## 🔑 Important Note
+
+This project **requires an IO.NET API KEY** to function.  
+You must set your API Key either via:
+
+- `.env` file (`OPENAI_API_KEY=your_key_here`)  
+or  
+- Streamlit sidebar input.
+
+**Keys can be obtained from:** [https://io.net](https://io.net)
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Example Screenshots
 
-| Dashboard Overview | Detailed Analysis |
-|:-------------------:|:-----------------:|
-| ![Dashboard Screenshot](link_to_dashboard_image) | ![Agent Output Screenshot](link_to_agent_output_image) |
+> App Interface:
 
-> *You can add screenshots later by uploading images to your repo and inserting their links.*
+![App Screenshot 1](images/app_example1.png)
+
+> Multi-Agent Analyses:
+
+![App Screenshot 2](images/app_example2.png)
 
 ---
 
-## 👨‍💻 Agents' Strategies
+## 📄 License
 
-- **Warren Buffett Agent**  
-  Focuses on margin of safety, durable competitive advantages, quality management, and long-term financial strength.
+This project is licensed under the MIT License.
 
-- **Benjamin Graham Agent**  
-  Evaluates intrinsic value, balance sheet strength, dividend history, and strict value investing principles.
+---
 
-- **Peter Lynch Agent**  
-  Seeks understandable businesses, GARP (growth at reasonable price), ten-bagger potential, and anecdotal product observations.
+## 🙌 Acknowledgements
+
+- Thanks to [IO.NET](https://io.net/) for providing free LLM compute.
+- Inspired by Warren Buffett, Benjamin Graham, Peter Lynch investing philosophies.
 
 ---
 
