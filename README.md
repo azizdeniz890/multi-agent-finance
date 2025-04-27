@@ -131,7 +131,3 @@ If you like this project or have any feedback, feel free to reach out!
 
 - GitHub: [azizdeniz890](https://github.com/azizdeniz890)
 - Email: azizdeniz098@gmail.com
-
----
-
-# 🌟 Happy Investing with AI! 🌟
