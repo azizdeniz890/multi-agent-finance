@@ -1,0 +1,6 @@
+iointel
+python-dotenv
+yfinance
+feedparser
+streamlit
+rich
