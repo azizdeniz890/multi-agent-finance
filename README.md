@@ -18,6 +18,53 @@ A powerful AI-driven dashboard that analyzes stock financials and news using leg
 
 ---
 
+### 🐳 Using Docker
+
+1. Make sure you have Docker installed on your system.  
+If not, you can download it from [Docker's official website](https://www.docker.com/get-started).
+
+2. Clone the repository:
+
+```bash
+git clone https://github.com/azizdeniz890/multi-agent-finance.git
+cd multi-agent-finance
+```
+
+3. Set up your environment variables:
+
+```bash
+# Create a .env file manually
+touch .env
+```
+
+4. Edit the `.env` file and add your API key:
+
+```dotenv
+OPENAI_API_KEY=your_io_net_api_key_here
+```
+
+5. Build the Docker image:
+
+```bash
+docker build -t multi-agent-finance .
+```
+
+6. Run the Docker container:
+
+```bash
+docker run -p 8501:8501 multi-agent-finance
+```
+
+7. Open your browser and navigate to:
+
+```
+http://localhost:8501
+```
+
+> ✅ No need for Python installation, no manual dependency setup. Everything runs inside the Docker container!
+
+---
+
 ## ⚡ How to Run Locally
 
 1. Clone the repo:
