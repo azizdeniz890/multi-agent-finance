@@ -54,12 +54,6 @@ or
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 📚 Acknowledgements
 
 - This project was inspired by [Virattt's AI Hedge Fund](https://github.com/virattt/ai-hedge-fund).
